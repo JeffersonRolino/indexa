@@ -6,4 +6,5 @@ h2 {
   font-weight: 700;
   line-height: 150%; /* 33px */
   border-bottom: 1px solid var(--primary-color);
+  text-transform: uppercase;
 }

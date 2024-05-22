@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './separador.component.html',
-  styleUrl: './separador.component.css'
+  styleUrl: './separador.component.css',
 })
-export class SeparadorComponent {
-
-}
+export class SeparadorComponent {}
