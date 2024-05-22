@@ -11,6 +11,7 @@ interface Contato {
 }
 
 import agenda from './agenda.json';
+import { ContatoComponent } from './componentes/contato/contato.component';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import agenda from './agenda.json';
     ContainerComponent,
     CabecalhoComponent,
     SeparadorComponent,
+    ContatoComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
